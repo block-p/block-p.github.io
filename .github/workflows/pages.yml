@@ -16,7 +16,7 @@ jobs:
       - name: Install LaTeX
         run: |
           sudo apt-get update
-          sudo apt-get install -y --no-install-recommends texlive-latex-extra texlive-xetex texlive-lang-arabic
+          sudo apt-get install -y --no-install-recommends texlive-latex-extra texlive-xetex texlive-lang-arabic texlive-fonts-recommended
       - name: Build the site and both PDFs
         run: python3 build.py
       - uses: actions/upload-pages-artifact@v3
