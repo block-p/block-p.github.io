@@ -1,0 +1,152 @@
+{
+  "email": "poori3.1415@gmail.com",
+  "github": "https://github.com/block-p",
+  "phone_en": "+98 916 853 4507",
+  "skills": {
+    "languages": "Go, Rust, Python",
+    "backend": "REST API, WebSocket, Gin, FastAPI, Centrifuge",
+    "frontend": "Templ, HTML, HTMX, Astro",
+    "data": "PostgreSQL, Redis, Redis Pub/Sub, SQLite, ClickHouse",
+    "systems": "Linux, Docker",
+    "tools": "Git, REST API Architecture"
+  },
+  "projects": [
+    {
+      "url": "https://github.com/block-p/safepin",
+      "tech": "Go, Gin, PostgreSQL, JavaScript, Docker",
+      "title": {
+        "en": "SafePin",
+        "fa": "[[SafePin]]"
+      },
+      "date": {
+        "en": "2026",
+        "fa": "۱۴۰۵"
+      },
+      "bullets": {
+        "en": [
+          "Built an encrypted message-sharing application with browser-side AES-GCM encryption, expiry and view limits.",
+          "Organized the backend into HTTP handlers, services and repositories, and packaged the application with Docker Compose."
+        ],
+        "fa": [
+          "توسعه سامانه اشتراک پیام با رمزنگاری [[AES-GCM]] در مرورگر، زمان انقضا و محدودیت تعداد مشاهده.",
+          "سازمان‌دهی بک‌اند در لایه‌های پردازش درخواست، سرویس و مخزن داده و اجرای سرویس‌ها با [[Docker Compose]]."
+        ]
+      }
+    },
+    {
+      "url": "https://github.com/block-p/paqetManager",
+      "tech": "Go, Linux, Networking",
+      "title": {
+        "en": "paqetManager",
+        "fa": "[[paqetManager]]"
+      },
+      "date": {
+        "en": "2026",
+        "fa": "۱۴۰۵"
+      },
+      "bullets": {
+        "en": [
+          "Developed a Linux setup and supervision tool for a network tunnel, including route and gateway MAC discovery.",
+          "Added process supervision, configuration generation and shareable connection URIs."
+        ],
+        "fa": [
+          "توسعه ابزار راه‌اندازی و نظارت بر تونل شبکه در لینوکس، با تشخیص مسیر شبکه و نشانی [[MAC]] دروازه.",
+          "ساخت پیکربندی، نظارت بر فرایند و تولید آدرس اشتراک‌گذاری اتصال."
+        ]
+      }
+    },
+    {
+      "tech": "Go, WebSocket, ClickHouse, Docker",
+      "title": {
+        "en": "Market Data Collector (private)",
+        "fa": "گردآورنده داده بازار (مخزن خصوصی)"
+      },
+      "date": {
+        "en": "2026",
+        "fa": "۱۴۰۵"
+      },
+      "bullets": {
+        "en": [
+          "Built exchange data collectors and a live dashboard for trades and order books from Nobitex, Wallex and Tabdeal.",
+          "Stored market data in ClickHouse and added exchange message parsing tests."
+        ],
+        "fa": [
+          "توسعه گردآورنده داده معاملات و دفتر سفارش نوبیتکس، والکس و تبدیل به همراه داشبورد زنده.",
+          "ذخیره داده‌ها در [[ClickHouse]] و افزودن تست برای پردازش پیام‌های صرافی‌ها."
+        ]
+      }
+    },
+    {
+      "url": "https://avesta.blockp.ir",
+      "tech": "TypeScript, Bun, React",
+      "title": {
+        "en": "Avesta (live site)",
+        "fa": "آوستا (نسخهٔ آنلاین)"
+      },
+      "date": {
+        "en": "2026",
+        "fa": "۱۴۰۵"
+      },
+      "bullets": {
+        "en": [
+          "Built a Persian-language web app for learning the Avestan language and script."
+        ],
+        "fa": [
+          "توسعهٔ وب‌اپ فارسی برای یادگیری زبان و خط اوستایی."
+        ]
+      }
+    }
+  ],
+  "course": {
+    "provider": "CodingCogs",
+    "title": {
+      "en": "RESTful API Course",
+      "fa": "دوره جامع آموزش [[RESTful API]]"
+    },
+    "role": {
+      "en": "Author & Instructor",
+      "fa": "مؤلف و مدرس"
+    },
+    "date": {
+      "en": "2024",
+      "fa": "۱۴۰۳"
+    },
+    "bullets": {
+      "en": [
+        "Authored and published a course on RESTful APIs.",
+        "Covered REST fundamentals, HTTP methods, status codes, resources, API design principles, and the Richardson Maturity Model.",
+        "Created beginner-friendly technical content for backend developers."
+      ],
+      "fa": [
+        "تألیف و انتشار دوره جامع بررسی مفاهیم معماری [[REST]]، متدهای [[HTTP]]، کدهای وضعیت، اصول طراحی [[API]] و مدل بلوغ ریچاردسون [[(RMM)]].",
+        "ارائه محتوای فنی برای توسعه‌دهندگان بک‌اند با رویکرد ورود به بازار کار."
+      ]
+    }
+  },
+  "education": {
+    "school": {
+      "en": "Khuzestan University Institute of Higher Education (JSCA)",
+      "fa": "مؤسسه آموزش عالی جهاد دانشگاهی خوزستان ([[JSCA]])"
+    },
+    "location": {
+      "en": "Ahvaz, Iran",
+      "fa": "اهواز، ایران"
+    },
+    "degree": {
+      "en": "B.Sc. in Computer Engineering",
+      "fa": "کارشناسی مهندسی کامپیوتر"
+    },
+    "date": {
+      "en": "2024 -- Present",
+      "fa": "۱۴۰۳ -- اکنون"
+    }
+  },
+  "name": {
+    "en": "Pouria Rabiei Rad",
+    "fa": "پوریا ربیعی راد"
+  },
+  "summary": {
+    "en": "Backend developer focused on Go, with hands-on experience building REST APIs, real-time data pipelines, and Linux networking tools. Uses PostgreSQL, ClickHouse, and Docker in backend projects.",
+    "fa": "توسعه‌دهنده بک‌اند با تمرکز بر [[Go]] و تجربه ساخت [[REST API]]، پردازش داده‌های بلادرنگ و توسعه ابزارهای شبکه در لینوکس. در پروژه‌های بک‌اند با [[PostgreSQL]]، [[ClickHouse]] و [[Docker]] کار کرده‌ام."
+  }
+}

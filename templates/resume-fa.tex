@@ -1,0 +1,80 @@
+% !TeX program = xelatex
+% !TEX TS-program = xelatex
+
+\documentclass[a4paper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[usenames,dvipsnames]{color}
+
+% تنظیم حاشیه‌ها
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+
+% بسته‌های زبان فارسی
+\usepackage{xepersian}
+\settextfont[Path=fonts/,Extension=.ttf,UprightFont=*-Regular,BoldFont=*-Bold]{Vazirmatn}
+\setlatintextfont[Path=fonts/,Extension=.ttf,UprightFont=*-Regular,BoldFont=*-Bold]{Vazirmatn}
+
+% استایل سرفصل‌ها
+\titleformat{\section}{
+  \vspace{-4pt}\bfseries\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-4pt}]
+
+\begin{document}
+
+%----------مشخصات فردی----------
+\begin{center}
+    {\textbf{\Huge @NAME@}} \\ \vspace{6pt}
+    \small
+    \href{mailto:@EMAIL_URL@}{\lr{@EMAIL@}} \quad$|$\quad
+    \href{@GITHUB_URL@}{\lr{@GITHUB_LABEL@}}
+\end{center}
+
+%-----------خلاصه سوابق-----------
+\section{درباره من}
+\small{
+@SUMMARY@
+}
+
+%-----------مهارت‌های فنی-----------
+\section{مهارت‌های فنی}
+\begin{itemize}[leftmargin=*, label={--}]
+    \item \textbf{زبان‌های برنامه‌نویسی:} \lr{@SKILLS_LANGUAGES@}
+    \item \textbf{توسعه بک‌اند:} \lr{@SKILLS_BACKEND@}
+    \item \textbf{فرانت‌اند:} \lr{@SKILLS_FRONTEND@}
+    \item \textbf{پایگاه‌داده و کش:} \lr{@SKILLS_DATA@}
+    \item \textbf{سیستم و استقرار:} \lr{@SKILLS_SYSTEMS@}
+    \item \textbf{ابزارها و اصول مهندسی:} \lr{@SKILLS_TOOLS@, Clean Code}
+\end{itemize}
+
+%-----------پروژه‌ها-----------
+\section{پروژه‌ها}
+@PROJECTS@
+
+%-----------دوره‌ها و تدریس-----------
+\section{دوره‌های آموزشی و انتشارات}
+
+\noindent\textbf{@COURSE_TITLE@} \hfill @COURSE_DATE@ \\
+\textit{\small @COURSE_ROLE@ \quad$|$\quad کدینگ‌کاگز (\lr{@PROVIDER@})}
+\begin{itemize}[leftmargin=*, label={$\bullet$}]
+@COURSE_BULLETS@
+\end{itemize}
+
+
+%-----------تحصیلات-----------
+\section{تحصیلات}
+
+\noindent\textbf{@EDUCATION_SCHOOL@} \hfill @EDUCATION_DATE@ \\
+\textit{\small @EDUCATION_DEGREE@ \quad$|$\quad @EDUCATION_LOCATION@}
+
+\end{document}
